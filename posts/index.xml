@@ -15,11 +15,14 @@
             <pubDate>Sat, 21 Nov 2020 18:26:44 +0300</pubDate>
             
             <guid>https://osmancanbozali.github.io/posts/2020/11/merhaba-blog/</guid>
-            <description>Bu yazı sonradan düzenlenecektir.. Buralara birkaç gün içerisinde birkaç paragraf eklerim.. Sonrası ne zaman canım isterse :D Shellscript kodu çalışıyor, alias eklendi&amp;hellip; mustafa dizdarla takılıyoruz</description>
-            <content type="html"><![CDATA[<h2 id="bu-yazı-sonradan-düzenlenecektir">Bu yazı sonradan düzenlenecektir..</h2>
-<p>Buralara birkaç gün içerisinde birkaç paragraf eklerim.. Sonrası ne zaman canım isterse :D
-Shellscript kodu çalışıyor, alias eklendi&hellip;
-mustafa dizdarla takılıyoruz</p>
+            <description>Selamlar, ben Osmancan. 2003 Trabzon doğumluyum. Trabzon&amp;rsquo;da özel bir lisede eğitimimi sürdürmekteyim. Küçük yaşlarda çok bilgisayar oyunu oynamaktan olsa gerek, bir yazılım sevdası oluştu içimde. Hani zevkle oynadığınız bir oyuna bakıp &amp;ldquo;Böyle bir oyunu nasıl yapmışlar?&amp;quot; deriz ya, ha aynen öyle bir şeydi benimki de.
+Olayın ciddiyetine varıp kendime ilk defa yazılımla uğraşmam gerek dediğim zaman 13-14 yaşlarındaydım. O yaşlarda TEOG sınavından başımı kaldıramadığımdan dolayı bu isteği liseye kadar ertelemiş oldum.</description>
+            <content type="html"><![CDATA[<p>Selamlar, ben Osmancan. 2003 Trabzon doğumluyum. Trabzon&rsquo;da özel bir lisede eğitimimi sürdürmekteyim. Küçük yaşlarda çok <strong>bilgisayar oyunu</strong> oynamaktan olsa gerek, bir <strong>yazılım</strong> sevdası oluştu içimde. Hani zevkle oynadığınız bir oyuna bakıp <em><strong>&ldquo;Böyle bir oyunu nasıl yapmışlar?&quot;</strong></em> deriz ya, ha aynen öyle bir şeydi benimki de.</p>
+<p>Olayın ciddiyetine varıp kendime ilk defa yazılımla uğraşmam gerek dediğim zaman <strong>13-14</strong> yaşlarındaydım. O yaşlarda <strong>TEOG</strong> sınavından başımı kaldıramadığımdan dolayı bu isteği liseye kadar ertelemiş oldum. Liseye geçmemle beraber okulda aldığım <strong>programlamaya giriş eğitimleri</strong> ve <strong>robotik yarışmaları</strong> ile haşır neşir olmamla beraber yazılım serüvenim başladı diyebilirim. Biraz <strong>C</strong>, biraz <strong>Python</strong> derken bu aralar <strong>Web Programlama</strong>ya odaklanmayı planlamaktayım.</p>
+<h3 id="peki-neden-blog">Peki neden blog?</h3>
+<p><a href="https://gohugo.io">Hugo</a> ile blog kurmak aslında kendi fikrim değildi. Daha öncesinde <strong>wordpress</strong> ile kurduğum bir blogum vardı. Ancak yazı yazmaktan ziyade sürekli yeni tema deniyor, gözüme hoş gelen temayı seçmeye çalışıyordum. Geçtiğimiz günlerde eski robotik ve kodlama öğretmenim, değerli bir ağabeyim olan <strong><a href="https://www.linkedin.com/in/mstfdzdr/">mstfdzdr</a></strong>&lsquo;la yaptığımız bir sohbette öğrendim hugo&rsquo;yu. Uzun zamandır aradığım o <strong>minimalist</strong> <a href="https://themes.gohugo.io/hugo-theme-hello-friend-ng/">temayı</a> da bulunca hevesle kurdum blogumu ve karşınızdayım :)</p>
+<p>Burayı ufak bir kişisel <strong>çöplük(!)</strong> olarak kullanmayı planlıyorum. Kod yazarken aldığım <strong>hata çözümleri</strong>, kullandığım <strong>teknolojiler</strong>, yaptığım <strong>projeler</strong> gibi birçok şey hakkında yazabilirim. Yazılarım arasında daha önce bilmediğime şaşırabileceğiniz şeyler olabilir; nihayetinde bu işlerle <strong>amatör</strong> olarak uğraşıyor, yeni şeyler öğrenmeye çalışıyorum. Kim bilir belki ileride bu işleri <strong>profesyonel</strong> olarak yapmaya başlarım, buradaki yazılarım da zaman içerisindeki <strong>gelişimimi belgeleyen</strong> güzel bir <strong>kaynak</strong> olurlar.</p>
+<p>Bu satırlarla beraber ilk blog yazımı noktalıyorum. Siftahı yapmış olduk, gerisi de gelir umarım&hellip;</p>
 ]]></content>
         </item>
         
