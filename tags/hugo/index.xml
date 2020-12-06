@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Osmancan Bozali</title>
-    <link>https://osmancanbozali.github.io/</link>
-    <description>Recent content on Osmancan Bozali</description>
+    <title>hugo on Osmancan Bozali</title>
+    <link>https://osmancanbozali.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on Osmancan Bozali</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 06 Dec 2020 20:02:22 +0300</lastBuildDate><atom:link href="https://osmancanbozali.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Dec 2020 20:02:22 +0300</lastBuildDate><atom:link href="https://osmancanbozali.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tek Bir Terminal Komutu ile Hugo Site Değişikliklerini Canlıya Alma</title>
       <link>https://osmancanbozali.github.io/posts/2020/12/tek-bir-terminal-komutu-ile-hugo-site-de%C4%9Fi%C5%9Fikliklerini-canl%C4%B1ya-alma/</link>
@@ -15,16 +15,6 @@
       
       <guid>https://osmancanbozali.github.io/posts/2020/12/tek-bir-terminal-komutu-ile-hugo-site-de%C4%9Fi%C5%9Fikliklerini-canl%C4%B1ya-alma/</guid>
       <description>Selamlar! Eğer siz de benim gibi hugo blogunuzu Github Pages aracılığıyla yayınlıyorsanız yeni yazı, düzenleme vb. sonrası siteyi canlıya almak için her seferinde sitenin render&amp;lsquo;ını alıp repository&amp;lsquo;yi güncellemek gerekiyor. Aslında 5-6 komutluk bir iş olmasına rağmen sıklıkla siteyi güncellemiyorsanız bu komutları unutabiliyorsunuz ve her seferinde komutları tekrardan google&amp;rsquo;da aramak can sıkabiliyor. Ben de bu işlemi tek komuta indirmek için ufak bir araştırma yaptım ve shell script diye bir şeyle karşılaştım.</description>
-    </item>
-    
-    <item>
-      <title>Merhaba Blog</title>
-      <link>https://osmancanbozali.github.io/posts/2020/11/merhaba-blog/</link>
-      <pubDate>Sat, 21 Nov 2020 18:26:44 +0300</pubDate>
-      
-      <guid>https://osmancanbozali.github.io/posts/2020/11/merhaba-blog/</guid>
-      <description>Selamlar, ben Osmancan. 2003 Trabzon doğumluyum. Trabzon&amp;rsquo;da özel bir lisede eğitimimi sürdürmekteyim. Küçük yaşlarda çok bilgisayar oyunu oynamaktan olsa gerek, bir yazılım sevdası oluştu içimde. Hani zevkle oynadığınız bir oyuna bakıp &amp;ldquo;Böyle bir oyunu nasıl yapmışlar?&amp;quot; deriz ya, ha aynen öyle bir şeydi benimki de.
-Olayın ciddiyetine varıp kendime ilk defa yazılımla uğraşmam gerek dediğim zaman 13-14 yaşlarındaydım. O yaşlarda TEOG sınavından başımı kaldıramadığımdan dolayı bu isteği liseye kadar ertelemiş oldum.</description>
     </item>
     
   </channel>

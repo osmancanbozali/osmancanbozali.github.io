@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://osmancanbozali.github.io/posts/2020/11/merhaba-blog/</loc>
-    <lastmod>2020-11-21T18:26:44+03:00</lastmod>
+    <loc>https://osmancanbozali.github.io/tags/hugo/</loc>
+    <lastmod>2020-12-06T20:02:22+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://osmancanbozali.github.io/</loc>
-    <lastmod>2020-11-21T18:26:44+03:00</lastmod>
+    <lastmod>2020-12-06T20:02:22+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tr"
@@ -24,12 +24,17 @@
   
   <url>
     <loc>https://osmancanbozali.github.io/posts/</loc>
-    <lastmod>2020-11-21T18:26:44+03:00</lastmod>
+    <lastmod>2020-12-06T20:02:22+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://osmancanbozali.github.io/tags/shellscript/</loc>
+    <lastmod>2020-12-06T20:02:22+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://osmancanbozali.github.io/tags/</loc>
-    <lastmod>2020-11-21T18:26:44+03:00</lastmod>
+    <lastmod>2020-12-06T20:02:22+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tr"
@@ -40,6 +45,16 @@
                 hreflang="en"
                 href="https://osmancanbozali.github.io/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://osmancanbozali.github.io/posts/2020/12/tek-bir-terminal-komutu-ile-hugo-site-de%C4%9Fi%C5%9Fikliklerini-canl%C4%B1ya-alma/</loc>
+    <lastmod>2020-12-06T20:02:22+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://osmancanbozali.github.io/posts/2020/11/merhaba-blog/</loc>
+    <lastmod>2020-11-21T18:26:44+03:00</lastmod>
   </url>
   
   <url>

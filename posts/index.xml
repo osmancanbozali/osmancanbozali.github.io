@@ -6,8 +6,46 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sat, 21 Nov 2020 18:26:44 +0300</lastBuildDate>
+        <lastBuildDate>Sun, 06 Dec 2020 20:02:22 +0300</lastBuildDate>
         <atom:link href="https://osmancanbozali.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Tek Bir Terminal Komutu ile Hugo Site Değişikliklerini Canlıya Alma</title>
+            <link>https://osmancanbozali.github.io/posts/2020/12/tek-bir-terminal-komutu-ile-hugo-site-de%C4%9Fi%C5%9Fikliklerini-canl%C4%B1ya-alma/</link>
+            <pubDate>Sun, 06 Dec 2020 20:02:22 +0300</pubDate>
+            
+            <guid>https://osmancanbozali.github.io/posts/2020/12/tek-bir-terminal-komutu-ile-hugo-site-de%C4%9Fi%C5%9Fikliklerini-canl%C4%B1ya-alma/</guid>
+            <description>Selamlar! Eğer siz de benim gibi hugo blogunuzu Github Pages aracılığıyla yayınlıyorsanız yeni yazı, düzenleme vb. sonrası siteyi canlıya almak için her seferinde sitenin render&amp;lsquo;ını alıp repository&amp;lsquo;yi güncellemek gerekiyor. Aslında 5-6 komutluk bir iş olmasına rağmen sıklıkla siteyi güncellemiyorsanız bu komutları unutabiliyorsunuz ve her seferinde komutları tekrardan google&amp;rsquo;da aramak can sıkabiliyor. Ben de bu işlemi tek komuta indirmek için ufak bir araştırma yaptım ve shell script diye bir şeyle karşılaştım.</description>
+            <content type="html"><![CDATA[<p>Selamlar! Eğer siz de benim gibi hugo blogunuzu <strong>Github Pages</strong> aracılığıyla yayınlıyorsanız yeni yazı, düzenleme vb. sonrası siteyi canlıya almak için her seferinde sitenin <strong>render</strong>&lsquo;ını alıp <strong>repository</strong>&lsquo;yi güncellemek gerekiyor. Aslında 5-6 komutluk bir iş olmasına rağmen sıklıkla siteyi güncellemiyorsanız bu komutları unutabiliyorsunuz ve her seferinde komutları tekrardan google&rsquo;da aramak can sıkabiliyor. Ben de bu işlemi <strong>tek komuta</strong> indirmek için ufak bir araştırma yaptım ve <strong>shell script</strong> diye bir şeyle karşılaştım.</p>
+<p><strong>shell script</strong> kısaca <strong>komut satırı</strong> tabanlı küçük bilgisayar programları olarak geçiyor. &ldquo;.sh&rdquo; uzantılı bir dosyaya yazılan komutlar dosya çalıştığında sırayla çalıştırılıyor. (<strong>shell script</strong> hakkında daha fazla bilgi sahibi olmak ve <strong>tutorial</strong>&lsquo;a göz atak için <strong><a href="https://www.shellscript.sh">buraya</a></strong> tıklayabilirsiniz.)</p>
+<h2 id="konumuza-geri-dönecek-olursak">Konumuza geri dönecek olursak&hellip;</h2>
+<p>Öncelikle belirtmek isterim ki aşağıda belirttiğim adımlar <strong>Linux</strong> ve <strong>MacOS</strong> cihazlarda çalışırken <strong>Windows</strong> cihazlarda <strong>shell script</strong> dosyalarını çalıştırma işlemi daha farklı gerçekleştiriliyor.</p>
+<p><strong>1.</strong> Öncelikle hugo sitemin bulunduğu klasörde <code>dosyaAdi.sh</code> adında bir dosya oluşturuyoruz.</p>
+<p><strong>2.</strong> Oluşturduğumuz dosyayı herhangi bir metin düzenleyicinde açıyoruz.</p>
+<p><strong>3.</strong> Dosya içerisine aşağıdaki komutları yapıştırıyoruz:</p>
+<pre><code>hugo
+cd public
+echo &quot;Enter your commit message&quot; 
+read message
+git add .
+git commit -m &quot;${message}&quot;
+git push origin master
+</code></pre><p><strong>Not:</strong>  <code>cd public</code> satırında &ldquo;public&rdquo; yerine <strong>repoya yüklenecek HTML çıktısının bulunduğu klasör adını</strong> yazmalısınız. (Default olarak çıktı public klasörüne alındığı için kodda bu şekilde belirttim.)</p>
+<p><strong>4.</strong> Dosyamızı <strong>çalıştırılabilir</strong> hale getirmek için <code>chmod +x dosyaAdi.sh</code> komutunu çalıştırıyoruz.</p>
+<p><strong>5.</strong> Artık dosyamız çalıştırılmaya hazır. <code>./dosyaAdi.sh</code> komutunu kullanarak dosyamızı çalıştırabiliriz.</p>
+<h3 id="opsiyonel-adımlar">Opsiyonel Adımlar</h3>
+<p>Bu komutu çalıştırmak için her seferinde başına &ldquo;./&rdquo; koymayı hatırlamak zorunda değilsiniz. Bunun için bir <strong>alias</strong>(takma isim) oluşturabilirsiniz.</p>
+<p><strong>1.</strong> Bunun için kullandığınız komut dili yorumlayıcısının konfigurasyon dosyasını herhangi bir metin düzenleyicisi ile açıyoruz. (Örneğin ben ZSH kullanıyorum ve konfigurasyon dosyam da .zshrc oluyor.)</p>
+<p><strong>2.</strong> # Aliases bölümünü bulup altına <code>alias takmaAd=&quot;./dosyaAdi.sh&quot;</code> yazıyoruz ve kaydediyoruz.</p>
+<p>Artık hugo sitenizin bulunduğu klasöre girip terminale <code>takmaAd</code> yazarsanız oluşturduğuz <strong>shell script</strong> dosyası çalışacaktır.</p>
+<blockquote>
+<p><strong>Kaynaklar</strong></p>
+<ul>
+<li><a href="https://dev.to/sauravjaiswalsj/automating-git-push-with-just-a-single-bash-command-460n">https://dev.to/sauravjaiswalsj/automating-git-push-with-just-a-single-bash-command-460n</a></li>
+</ul>
+</blockquote>
+]]></content>
+        </item>
         
         <item>
             <title>Merhaba Blog</title>
